@@ -11,7 +11,7 @@ Shader "Solutena/Sprite/Default"
         [PerRendererData] _EnableExternalAlpha ("Enable External Alpha", Float) = 0
         
         [Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend ("SrcBlend mode", Float) = 5
-		[Enum(UnityEngine.Rendering.BlendMode)] _DstBlend ("DstBlend mode", Float) = 10
+	[Enum(UnityEngine.Rendering.BlendMode)] _DstBlend ("DstBlend mode", Float) = 10
     }
 
     SubShader

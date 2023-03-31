@@ -43,7 +43,7 @@ Shader "Solutena/UI/Default"
         Lighting Off
         ZWrite Off
         ZTest [unity_GUIZTestMode]
-        Blend One OneMinusSrcAlpha
+        Blend [_SrcBlend] [_DstBlend]
         ColorMask [_ColorMask]
 
         Pass
